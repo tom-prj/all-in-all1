@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="login-register">
+                <form action="#" class="login-form">
+                    <h2 class="title">LOGIN</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input name="username" type="text" placeholder="Username">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input name="password" type="password" placeholder="Password">
+                    </div>
+
+                    <div class="field">
+                        <input name="submit" type="submit" value="Login" class="btn solid">
+                    </div>
+                    
+                    <div class="noaccount-field">
+                        <p>Don't have an account? <button class="go-to-signup transparent" id="signup-btn">Register Now!</button></p>
+                    </div>
+                </form>
+
+                <form action="#" class="sign-up-form">
+                    <h2 class="title">SIGN UP</h2>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input name="username" type="text" placeholder="Username">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input name="email" type="text" placeholder="Email">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input name="password" type="password" placeholder="Password">
+                    </div>
+
+                    <div class="field">
+                        <input name="submit" type="submit" value="Register" class="btn solid">
+                    </div>
+                    
+                    <div class="noaccount-field">
+                        <p>Already have an account? <button class="go-to-login transparent" id="login-btn">Login Now!</button></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="image-div">
+                    <img src="bg.jpg" class="image" alt="background image">
+                </div>
+            </div>
+
+            <div class="panel right-panel">
+                <div class="image-div">
+                    <img src="bg.jpg" class="image" alt="background image">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="animation.js"></script>
+</body>
+</html>
